@@ -5,7 +5,7 @@
 MATRIX_DEPTH = 1 #number of scenes in the box
 TRACK_NUMBER = 8 #number of tracks for Mixer mapping
 NUMBER_BUTTONS = 40 #number of buttons in BUTTON_VECTOR
-NUMBER_SLIDERS = 2 #number of sliders in SLIDER_VECTOR
+NUMBER_SLIDERS = 4 #number of sliders in SLIDER_VECTOR
 BANKS_NUMBER = 8 #number of parameter banks
 PARAMS_NUMBER = 8 #number of parameters per bank
 PAD_X_NUMBER = 4 #number of pad columns
