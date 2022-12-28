@@ -35,9 +35,15 @@ The buttons on the lower right move the rectangle left and right, selecting a di
 
 You will need to copy the entire BCF2000plus folder to the Ableton Live remote scripts directory...
 
-Windows: \ProgramData\Ableton\Live x.x\Resources\MIDI Remote Scripts\
+### User Library folder 
+Create a "MIDI Remote Scripts" folder in your User Library folder. This is the preffered method.
+
+### Windows
+\ProgramData\Ableton\Live x.x\Resources\MIDI Remote Scripts\
 This folder is hidden by default.
-Mac: The Remote Script folder is inside the Ableton Live application bundle. Locate the Live application in Finder, right click on it and select "Show Package Content". Then navigate to: /Contents/App-Resources/MIDI Remote Scripts/
+
+### Mac
+The Remote Script folder is inside the Ableton Live application bundle. Locate the Live application in Finder, right click on it and select "Show Package Content". Then navigate to: /Contents/App-Resources/MIDI Remote Scripts/.
 
 After you restart Live, you should see the BCF2000plus in Preferences/Link Midi/Control Surfaces.
 
