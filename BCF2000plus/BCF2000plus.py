@@ -17,14 +17,14 @@ from .SpecialZoomingComponent import SpecialZoomingComponent
 from .SpecialViewControllerComponent import DetailViewControllerComponent
 from .MIDI_Map import *
 
-class BCR2000plus(ControlSurface):
+class BCF2000plus(ControlSurface):
     __doc__ = u" Script for FCB1010 in APC emulation mode "
 
     _active_instances = []
     def _combine_active_instances():
         track_offset = 0
         scene_offset = 0
-        for instance in BCR2000plus._active_instances:
+        for instance in BCF2000plus._active_instances:
             instance._activate_combination_mode(track_offset, scene_offset)
             track_offset += instance._session.width()
     _combine_active_instances = staticmethod(_combine_active_instances)
@@ -87,15 +87,15 @@ class BCR2000plus(ControlSurface):
 
 
     def _do_combine(self):
-        if self not in BCR2000plus._active_instances:
-            BCR2000plus._active_instances.append(self)
-            BCR2000plus._combine_active_instances()
+        if self not in BCF2000plus._active_instances:
+            BCF2000plus._active_instances.append(self)
+            BCF2000plus._combine_active_instances()
 
 
     def _do_uncombine(self):
-        if ((self in BCR2000plus._active_instances) and BCR2000plus._active_instances.remove(self)):
+        if ((self in BCF2000plus._active_instances) and BCF2000plus._active_instances.remove(self)):
             self._session.unlink()
-            BCR2000plus._combine_active_instances()
+            BCF2000plus._combine_active_instances()
 
 
     def _activate_combination_mode(self, track_offset, scene_offset):
