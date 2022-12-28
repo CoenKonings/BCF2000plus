@@ -1,13 +1,19 @@
 # BCF2000plus
 Behringer BCF2000 Remote Script for Ableton Live
 
-Fork of [BCR2000plus](https://github.com/widdly/BCR2000plus) from [widdly](https://github.com/widdly).
+## Thank you
+
+This is a fork of [BCR2000plus](https://github.com/widdly/BCR2000plus) from [widdly](https://github.com/widdly), which is based on the [Generic-Python-Remote-Script](https://github.com/j74/Generic-Python-Remote-Script) from [j74](https://github.com/j74)
+
+A bit thank you for the great work to all contributors!
+
+## What is this?
 
 This script adds a new remote capabilities for the Behringer BCF2000 to Ableton Live.
 
 The default BCF2000 settings in Live only works for the first 8 channels.  This script gives a moveable box so that you can control all the channels.
 
-The layout is as..
+## Layout
 
 The faders control the track volumes.
 
@@ -25,6 +31,7 @@ Group 4 has Send 3 levels and the pushbuttons stop the clips for that track.
 
 The buttons on the lower right move the rectangle left and right, selecting a different set of 8 channels.  It is possible to control the return channels as well as the normal channels.  The two buttons above operate the Play and Stop transport.
 
+## How to install
 
 You will need to copy the entire BCF2000plus folder to the Ableton Live remote scripts directory...
 
@@ -35,5 +42,3 @@ Mac: The Remote Script folder is inside the Ableton Live application bundle. Loc
 After you restart Live, you should see the BCF2000plus in Preferences/Link Midi/Control Surfaces.
 
 There is file called preset.syx you need to send to your BCF2000.  Ideally you could press the "dump" button in the Live GUI but I've found it cannot transfer the whole file properly so I recommend you use the Elektron C6 utility from here.. https://www.elektron.se/support/?connection=analog-four    You will need to add a delay in the configure page of about 10ms for it to work properly with the BCF2000
-
-This script is based on the https://github.com/j74/Generic-Python-Remote-Script by Fabrizio Poce
