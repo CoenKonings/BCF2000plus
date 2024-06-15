@@ -22,7 +22,7 @@ TEMPO_TOP = 180.0 # Upper limit of tempo control in BPM (max is 999)
 TEMPO_BOTTOM = 60.0 # Lower limit of tempo control in BPM (min is 0)
 
 ###########################################################
-# Individual Scene Buttons 
+# Individual Scene Buttons
 # Note: must be at least MATRIX_DEPTH long
 # Type 0 == MIDI notes, Type 1 == MIDI CC
 # CH must be in the range 0 to 15 (corresponding to MIDI channels 1 to 16)
@@ -65,7 +65,7 @@ SCENELAUNCH_CH = (0, #Scene 1
 
 ###########################################################
 # Clip Matrix
-# Note: must be at least have MATRIX_DEPTH * TRACK_NUMBER dimensions 
+# Note: must be at least have MATRIX_DEPTH * TRACK_NUMBER dimensions
 
 # Track no.:     1   2   3   4   5   6   7   8   9  10  11  12  13  14  15  16  17  18  19  20  21  22  23  24  25  26  27  28  29  30  31  32
 CLIPNOTEMAP = ((-1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1, -1), # 1
@@ -991,14 +991,14 @@ TRACKPAN_CH = (0, # Channel for Track 1
 ###########################################################
 # Track Send A Sliders
 # Note: Must be at least TRACK_NUMBER long
-TRACKSENDA = (81, #Track 1 Send A
-              82, #Track 2
-              83, #Track 3
-              84, #Track 4
-              85, #Track 5
-              86, #Track 6
-              87, #Track 7
-              88, #Track 8
+TRACKSENDA = (25, #Track 1 Send A
+              26, #Track 2
+              27, #Track 3
+              28, #Track 4
+              29, #Track 5
+              30, #Track 6
+              31, #Track 7
+              32, #Track 8
               -1, #Track 9
               -1, #Track 10
               -1, #Track 11
@@ -1096,14 +1096,14 @@ TRACKSENDA_CH = (0, # Channel for Track 1
 ###########################################################
 # Track Send B Sliders
 # Note: Must be at least TRACK_NUMBER long
-TRACKSENDB = (89, #Track 1 Send B
-              90, #Track 2
-              91, #Track 3
-              92, #Track 4
-              93, #Track 5
-              94, #Track 6
-              95, #Track 7
-              96, #Track 8
+TRACKSENDB = (-1, #Track 1 Send B
+              -1, #Track 2
+              -1, #Track 3
+              -1, #Track 4
+              -1, #Track 5
+              -1, #Track 6
+              -1, #Track 7
+              -1, #Track 8
               -1, #Track 9
               -1, #Track 10
               -1, #Track 11
@@ -1201,14 +1201,14 @@ TRACKSENDB_CH = (0, # Channel for Track 1
 ###########################################################
 # Track Send C Sliders
 # Note: Must be at least TRACK_NUMBER long
-TRACKSENDC = (25, #Track 1 Send C
-              26, #Track 2
-              27, #Track 3
-              28, #Track 4
-              29, #Track 5
-              30, #Track 6
-              31, #Track 7
-              32, #Track 8
+TRACKSENDC = (-1, #Track 1 Send C
+              -1, #Track 2
+              -1, #Track 3
+              -1, #Track 4
+              -1, #Track 5
+              -1, #Track 6
+              -1, #Track 7
+              -1, #Track 8
               -1, #Track 9
               -1, #Track 10
               -1, #Track 11
