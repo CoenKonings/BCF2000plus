@@ -1,9 +1,9 @@
 # BCF2000plus
-Behringer BCF2000 Remote Script for Ableton Live
+Behringer BCF2000 Remote Script for Ableton Live.
 
 ## Thank you
 
-This is a fork of [BCR2000plus](https://github.com/widdly/BCR2000plus) from [widdly](https://github.com/widdly), which is based on the [Generic-Python-Remote-Script](https://github.com/j74/Generic-Python-Remote-Script) from [j74](https://github.com/j74).
+This is a fork of [BCF2000plus](https://github.com/LukasP46/BCF2000plus) from LukasP46, which is a fork of [BCR2000plus](https://github.com/widdly/BCR2000plus) from [widdly](https://github.com/widdly), which is based on the [Generic-Python-Remote-Script](https://github.com/j74/Generic-Python-Remote-Script) from [j74](https://github.com/j74).
 
 A big thank you for the great work to all contributors!
 
@@ -27,7 +27,7 @@ Group 2 has device control (the blue hand) encoders and the pushbuttons select b
 
 Group 3 has Crossfader on encoder 6, Headphones on 7 and Master Volume on 8.  The push buttons select tracks.
 
-Group 4 has Send 3 levels and the pushbuttons stop the clips for that track.
+Group 4 has Send 1 levels and the pushbuttons stop the clips for that track.
 
 The buttons on the lower right move the rectangle left and right, selecting a different set of 8 channels.  It is possible to control the return channels as well as the normal channels.  The two buttons above operate the Play and Stop transport.
 
