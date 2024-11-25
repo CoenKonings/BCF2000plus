@@ -3,7 +3,7 @@ Behringer BCF2000 Remote Script for Ableton Live.
 
 ## Thank you
 
-This is a fork of [BCF2000plus](https://github.com/LukasP46/BCF2000plus) from LukasP46, which is a fork of [BCR2000plus](https://github.com/widdly/BCR2000plus) from [widdly](https://github.com/widdly), which is based on the [Generic-Python-Remote-Script](https://github.com/j74/Generic-Python-Remote-Script) from [j74](https://github.com/j74).
+This is a fork of [BCR2000plus](https://github.com/widdly/BCR2000plus) from [widdly](https://github.com/widdly), which is based on the [Generic-Python-Remote-Script](https://github.com/j74/Generic-Python-Remote-Script) from [j74](https://github.com/j74).
 
 A big thank you for the great work to all contributors!
 
